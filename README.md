@@ -3,11 +3,11 @@ A comprehensive tutorial on how to implement and train variational UNet based ou
 
 
 ## Demo notebooks
-1. Go to the [Cell tracking chanllenge website](https://celltrackingchallenge.net/2d-datasets/) to download the *HeLa cells on a flat glass* training and test dataset. The dataset can be downloaded and unzipped manually or use the [PythonDownloadAndUnzip](./PythonDownloadAndUnzip.ipynb) notebook to download programmably.
+1. Go to the [cell tracking chanllenge website](https://celltrackingchallenge.net/2d-datasets/) to download the *HeLa cells on a flat glass* training and test dataset. The dataset can be downloaded and unzipped manually or use the [PythonDownloadAndUnzip](./PythonDownloadAndUnzip.ipynb) notebook to download programmably.
 
 2. Run the [Preprocess](./Preprocess.ipynb) notebook to perform erosion and spatial weight calculation preprocessing on the dataset. 
 
-3. Run the [TrainSimpleUNetWithWeight](./TrainSimpleUNetWithWeight.ipynb) or [TrainSimpleUNetWithoutWeight](./TrainSimpleUNetWithoutWeight.ipynb) to train UNet with or without spatial weighted loss.
+3. Run the [TrainSimpleUNetWithWeight](./TrainSimpleUNetWithWeight.ipynb) notebook or [TrainSimpleUNetWithoutWeight](./TrainSimpleUNetWithoutWeight.ipynb) notebook to train UNet with or without spatial weighted loss.
 
 4. Run the [DirectInference](./DirectInference.ipynb) notebook or [OverlapTileInference](./OverlapTileInference.ipynb) notebook to segment new (larger) image using the trained UNet model through direct inference or overlap tile strategy.
 
