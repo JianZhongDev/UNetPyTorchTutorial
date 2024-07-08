@@ -19,16 +19,16 @@ A comprehensive tutorial on how to implement and train variational UNet based ou
 
 ## Example results
 Preprocessing result:
-![Preprocess result](./Assets/Images/Preprocess.png, "Preprocess result")
+![Preprocess result](./Assets/Images/Preprocess.png "Preprocess result")
 
 UNet model trained without weighted loss function segmentation result (valdiation set IoU = 85.36%): 
-![UNet trained without spatial weight](./Assets/Images/NoWeightSegResult.png, "UNet trained without spatial weight")
+![UNet trained without spatial weight](./Assets/Images/NoWeightSegResult.png "UNet trained without spatial weight")
 
 UNet model trained with weighted loss function segmentation result (valdiation set IoU = 85.61%): 
-![UNet trained with spatial weight](./Assets/Images/WeightedSegResult.png, "UNet trained with spatial weight")
+![UNet trained with spatial weight](./Assets/Images/WeightedSegResult.png "UNet trained with spatial weight")
 
 Overlap tile strategy implementation result:
-![Overlap tile strategy result](./Assets/Images/OverlapTile.png, "Overlap tile strategy result")
+![Overlap tile strategy result](./Assets/Images/OverlapTile.png "Overlap tile strategy result")
 
 
 ## Dependency
